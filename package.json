@@ -1,0 +1,22 @@
+{
+  "name": "class-validators-utils",
+  "version": "1.0.0",
+  "description": "Some custom validators using class-validator",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node main.ts"
+  },
+  "author": "Yassine",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.26",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "class-transformer": "0.5.1",
+    "class-validator": "^0.14.1",
+    "reflect-metadata": "^0.2.1"
+  }
+}
